@@ -14,6 +14,7 @@ import 'package:readr/pages/readr/readrPage.dart';
 import 'package:readr/pages/shared/profilePhotoWidget.dart';
 import 'package:readr/pages/wallet/walletPage.dart';
 import 'package:upgrader/upgrader.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class RootPage extends GetView<RootPageController> {
   @override
@@ -76,6 +77,17 @@ class RootPage extends GetView<RootPageController> {
           onTap: (index) => controller.changeTabIndex(index),
           type: BottomNavigationBarType.fixed,
           items: [
+            BottomNavigationBarItem(
+              icon: SizedBox(
+                height: 24,
+                child: SvgPicture.asset('assets/icon/homeIcon.svg'),
+              ),
+              activeIcon: SizedBox(
+                height: 24,
+                child: SvgPicture.asset('assets/icon/homeIconFill.svg'),
+              ),
+              label: 'homeTab'.tr,
+            ),
             BottomNavigationBarItem(
               icon: SizedBox(
                 height: 24,
