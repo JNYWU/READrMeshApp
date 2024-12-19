@@ -29,7 +29,7 @@ const Map<String, String> chineseTwMap = {
   'iGotIt': '我知道了',
 
   //bottom tab
-  /* 在此新增首頁 */
+  'homeTab': '首頁',
   'communityTab': '社群',
   'latestTab': '最新',
   'personalFileTab': '個人檔案',
@@ -382,7 +382,7 @@ const Map<String, String> chineseTwMap = {
   'nameError': '這個名稱目前無法使用，請使用其他名稱。',
   'nameEmptyError': '姓名不能空白',
   'customIdError': '這個 ID 目前無法使用，請使用其他 ID。',
-  'customIdEmptyError': 'ID不能空白',
+  'customIdEmptyError': 'ID不能��白',
   'introduction': '簡介',
   'characters': '字',
   'introductionHint': '向大家介紹一下自己吧...',

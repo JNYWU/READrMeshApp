@@ -29,7 +29,7 @@ const Map<String, String> chineseCnMap = {
   'iGotIt': '我明白了',
 
   //bottom tab
-  /* 在此新增首頁 */
+  'homeTab': '首页',
   'communityTab': '社区',
   'latestTab': '最新',
   'personalFileTab': '个人档案',
@@ -61,7 +61,7 @@ const Map<String, String> chineseCnMap = {
   'openLinkFailedToast': '无法打开链接',
   'addToCollectionSuccessToast': '已成功加入集锦',
   'addToCollectionFailedToast': '加入集锦失败',
-  'createCollectionFailedToast': '创建失败，请稍后重试',
+  'createCollectionFailedToast': '创建失败，请稍后重��',
   'loadFailedToast': '加载失败，请稍后重试',
   'updateFailedToast': '更新失败，请稍后重试',
   'deleteFailedToast': '删除失败，请稍后重试',
@@ -169,7 +169,7 @@ const Map<String, String> chineseCnMap = {
   'editSort': '编辑排序',
   'changeCollectionType': '更改集锦类型',
   'editLeaveAlertTitle': '放弃更改？',
-  'editLeaveAlertContent': '如果现在返回，将不会保存更改。',
+  'editLeaveAlertContent': '如果现在返回，将不���保存更改。',
   'editLeaveAlertContent2': '更改将不会保存',
   'continueEditing': '继续编辑',
   'discardChanges': '放弃更改',
@@ -248,7 +248,7 @@ const Map<String, String> chineseCnMap = {
 
   //followableItem
   'defaultDescription': '为你推荐',
-  'singleFollower': '的关注对象',
+  'singleFollower': '的��注对象',
   'multiFollower': '人的关注对象',
   'lookmoreMemberText': '探索更多推荐给您的用户',
   'lookmorePublisherText': '探索更多推荐给您的媒体',
@@ -381,7 +381,7 @@ const Map<String, String> chineseCnMap = {
   'name': '名称',
   'nameError': '此名称当前不可用，请使用其他名称。',
   'nameEmptyError': '名称不能为空',
-  'customIdError': '此ID当前不可用，请使用其他ID。',
+  'customIdError': '此ID��前不可用，请使用其他ID。',
   'customIdEmptyError': 'ID不能为空',
   'introduction': '介绍',
   'characters': '字',
